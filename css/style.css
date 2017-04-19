@@ -1,0 +1,36 @@
+  /* colors
+   *
+   * #5A5A5A 
+   * #B31F29 navPrimary
+   * #85141B searchForm
+   * #FEC854 button background
+   * #5A0A0F nav dropdown menu
+   * #FCB126 subheader text
+   *
+   */
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+div.bar {
+  display: inline-block;
+  width: 25px;
+  height: 75px;
+  background-color: #85141B;
+  margin-right: 3px;
+}
+
+svg .pumpkin {
+  fill: yellow;
+  stroke: orange;
+  stroke-width: 5;
+}
