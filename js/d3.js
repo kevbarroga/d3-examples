@@ -105,8 +105,11 @@ wave = function() {
 
 };
 
-recolor();
+var start;
 
+function startDemo() {
+
+recolor();
 d3.selectAll(".circle-transition")
   .transition()
   .duration(500)
@@ -181,7 +184,7 @@ d3.selectAll(".circle-transition")
            });
        });
    });
-
+}
 // Scatterplot example
 // x-scale
 var xScale = d3.scaleLinear()
