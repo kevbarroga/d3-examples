@@ -185,6 +185,19 @@ d3.selectAll(".circle-transition")
        });
    });
 }
+
+function stopDemo() {
+    d3.select("rect").transition();
+    d3.selectAll(".circle-transition").transition();
+}
+
+var run = document.querySelector("#run-transitions");
+var stop = document.querySelector("#stop-transitions");
+
+run.addEventListener("click", startDemo);
+stop.addEventListener("click", stopDemo);
+
+
 // Scatterplot example
 // x-scale
 var xScale = d3.scaleLinear()
